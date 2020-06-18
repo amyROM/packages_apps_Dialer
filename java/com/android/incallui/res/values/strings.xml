@@ -212,4 +212,7 @@
   <!-- Text for button to accept RTT request. [CHAR LIMIT=20] -->
   <string name="rtt_button_accept_request">Join RTT</string>
 
+  <!-- Text for call not private banner. -->
+  <string name="incall_screen_privacy_data_collection">The location and audio of this call are not private.</string>
+
 </resources>
