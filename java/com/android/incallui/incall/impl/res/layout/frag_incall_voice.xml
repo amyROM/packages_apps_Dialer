@@ -29,11 +29,18 @@
       android:clipToPadding="false"
       android:fitsSystemWindows="true">
 
+    <include
+        layout="@layout/incall_header"
+        android:id="@+id/incall_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
     <LinearLayout
         android:id="@id/incall_contact_grid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
+        android:layout_below="@+id/incall_header"
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
